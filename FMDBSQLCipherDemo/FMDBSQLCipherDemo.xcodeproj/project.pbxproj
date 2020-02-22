@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85334C8362D64A57A8305E10 /* Pods_FMDBSQLCipherDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC53A3074533BD9BE91109 /* Pods_FMDBSQLCipherDemo.framework */; };
+		C716306E23FE380B000656E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716306D23FE380B000656E9 /* AppDelegate.swift */; };
+		C716307023FE380B000656E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716306F23FE380B000656E9 /* SceneDelegate.swift */; };
+		C716307223FE380B000656E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716307123FE380B000656E9 /* ViewController.swift */; };
+		C716307523FE380B000656E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C716307323FE380B000656E9 /* Main.storyboard */; };
+		C716307723FE380C000656E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C716307623FE380C000656E9 /* Assets.xcassets */; };
+		C716307A23FE380C000656E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C716307823FE380C000656E9 /* LaunchScreen.storyboard */; };
+		C716308D24003076000656E9 /* FMDBSQLCipherDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716308C24003076000656E9 /* FMDBSQLCipherDemoTests.swift */; };
+		C7163095240130EC000656E9 /* FMDBSQLCipherHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7163094240130EC000656E9 /* FMDBSQLCipherHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C716308F24003076000656E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C716306223FE380B000656E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C716306923FE380B000656E9;
+			remoteInfo = FMDBSQLCipherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2C70EBDB858ED4C00590CE /* Pods-FMDBSQLCipherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBSQLCipherDemo.debug.xcconfig"; path = "Target Support Files/Pods-FMDBSQLCipherDemo/Pods-FMDBSQLCipherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C716306A23FE380B000656E9 /* FMDBSQLCipherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDBSQLCipherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C716306D23FE380B000656E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C716306F23FE380B000656E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C716307123FE380B000656E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C716307423FE380B000656E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C716307623FE380C000656E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C716307923FE380C000656E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C716307B23FE380C000656E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C716308123FE6D9C000656E9 /* FMDBSQLCipher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDBSQLCipher-Bridging-Header.h"; sourceTree = "<group>"; };
+		C716308A24003076000656E9 /* FMDBSQLCipherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDBSQLCipherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C716308C24003076000656E9 /* FMDBSQLCipherDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBSQLCipherDemoTests.swift; sourceTree = "<group>"; };
+		C716308E24003076000656E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7163094240130EC000656E9 /* FMDBSQLCipherHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBSQLCipherHelper.swift; sourceTree = "<group>"; };
+		CC75392B79C0D93670B0AA3E /* Pods-FMDBSQLCipherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBSQLCipherDemo.release.xcconfig"; path = "Target Support Files/Pods-FMDBSQLCipherDemo/Pods-FMDBSQLCipherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FABC53A3074533BD9BE91109 /* Pods_FMDBSQLCipherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMDBSQLCipherDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C716306723FE380B000656E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85334C8362D64A57A8305E10 /* Pods_FMDBSQLCipherDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C716308724003076000656E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0BE5AF63FB38FC8AB26B4D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D2C70EBDB858ED4C00590CE /* Pods-FMDBSQLCipherDemo.debug.xcconfig */,
+				CC75392B79C0D93670B0AA3E /* Pods-FMDBSQLCipherDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C716306123FE380B000656E9 = {
+			isa = PBXGroup;
+			children = (
+				C716306C23FE380B000656E9 /* FMDBSQLCipherDemo */,
+				C716308B24003076000656E9 /* FMDBSQLCipherDemoTests */,
+				C716306B23FE380B000656E9 /* Products */,
+				C0BE5AF63FB38FC8AB26B4D3 /* Pods */,
+				F01B19B0A876164835FB6381 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C716306B23FE380B000656E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C716306A23FE380B000656E9 /* FMDBSQLCipherDemo.app */,
+				C716308A24003076000656E9 /* FMDBSQLCipherDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C716306C23FE380B000656E9 /* FMDBSQLCipherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C716306D23FE380B000656E9 /* AppDelegate.swift */,
+				C716306F23FE380B000656E9 /* SceneDelegate.swift */,
+				C716307123FE380B000656E9 /* ViewController.swift */,
+				C7163094240130EC000656E9 /* FMDBSQLCipherHelper.swift */,
+				C716307323FE380B000656E9 /* Main.storyboard */,
+				C716307623FE380C000656E9 /* Assets.xcassets */,
+				C716307823FE380C000656E9 /* LaunchScreen.storyboard */,
+				C716307B23FE380C000656E9 /* Info.plist */,
+				C716308123FE6D9C000656E9 /* FMDBSQLCipher-Bridging-Header.h */,
+			);
+			path = FMDBSQLCipherDemo;
+			sourceTree = "<group>";
+		};
+		C716308B24003076000656E9 /* FMDBSQLCipherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C716308C24003076000656E9 /* FMDBSQLCipherDemoTests.swift */,
+				C716308E24003076000656E9 /* Info.plist */,
+			);
+			path = FMDBSQLCipherDemoTests;
+			sourceTree = "<group>";
+		};
+		F01B19B0A876164835FB6381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABC53A3074533BD9BE91109 /* Pods_FMDBSQLCipherDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C716306923FE380B000656E9 /* FMDBSQLCipherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C716307E23FE380C000656E9 /* Build configuration list for PBXNativeTarget "FMDBSQLCipherDemo" */;
+			buildPhases = (
+				88D291B6BCC02B42B3B3A7A3 /* [CP] Check Pods Manifest.lock */,
+				C716306623FE380B000656E9 /* Sources */,
+				C716306723FE380B000656E9 /* Frameworks */,
+				C716306823FE380B000656E9 /* Resources */,
+				2D060473A2734C18C56DF1A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDBSQLCipherDemo;
+			productName = FMDBSQLCipherDemo;
+			productReference = C716306A23FE380B000656E9 /* FMDBSQLCipherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C716308924003076000656E9 /* FMDBSQLCipherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C716309124003076000656E9 /* Build configuration list for PBXNativeTarget "FMDBSQLCipherDemoTests" */;
+			buildPhases = (
+				C716308624003076000656E9 /* Sources */,
+				C716308724003076000656E9 /* Frameworks */,
+				C716308824003076000656E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C716309024003076000656E9 /* PBXTargetDependency */,
+			);
+			name = FMDBSQLCipherDemoTests;
+			productName = FMDBSQLCipherDemoTests;
+			productReference = C716308A24003076000656E9 /* FMDBSQLCipherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C716306223FE380B000656E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Otrshen;
+				TargetAttributes = {
+					C716306923FE380B000656E9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C716308924003076000656E9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C716306923FE380B000656E9;
+					};
+				};
+			};
+			buildConfigurationList = C716306523FE380B000656E9 /* Build configuration list for PBXProject "FMDBSQLCipherDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C716306123FE380B000656E9;
+			productRefGroup = C716306B23FE380B000656E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C716306923FE380B000656E9 /* FMDBSQLCipherDemo */,
+				C716308924003076000656E9 /* FMDBSQLCipherDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C716306823FE380B000656E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C716307A23FE380C000656E9 /* LaunchScreen.storyboard in Resources */,
+				C716307723FE380C000656E9 /* Assets.xcassets in Resources */,
+				C716307523FE380B000656E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C716308824003076000656E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D060473A2734C18C56DF1A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FMDBSQLCipherDemo/Pods-FMDBSQLCipherDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FMDBSQLCipherDemo/Pods-FMDBSQLCipherDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FMDBSQLCipherDemo/Pods-FMDBSQLCipherDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D291B6BCC02B42B3B3A7A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMDBSQLCipherDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C716306623FE380B000656E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7163095240130EC000656E9 /* FMDBSQLCipherHelper.swift in Sources */,
+				C716307223FE380B000656E9 /* ViewController.swift in Sources */,
+				C716306E23FE380B000656E9 /* AppDelegate.swift in Sources */,
+				C716307023FE380B000656E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C716308624003076000656E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C716308D24003076000656E9 /* FMDBSQLCipherDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C716309024003076000656E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C716306923FE380B000656E9 /* FMDBSQLCipherDemo */;
+			targetProxy = C716308F24003076000656E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C716307323FE380B000656E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C716307423FE380B000656E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C716307823FE380C000656E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C716307923FE380C000656E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C716307C23FE380C000656E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C716307D23FE380C000656E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C716307F23FE380C000656E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2C70EBDB858ED4C00590CE /* Pods-FMDBSQLCipherDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PVK52JS2;
+				INFOPLIST_FILE = FMDBSQLCipherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Otrshen.FMDBSQLCipherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMDBSQLCipherDemo/FMDBSQLCipher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C716308023FE380C000656E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC75392B79C0D93670B0AA3E /* Pods-FMDBSQLCipherDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PVK52JS2;
+				INFOPLIST_FILE = FMDBSQLCipherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Otrshen.FMDBSQLCipherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMDBSQLCipherDemo/FMDBSQLCipher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C716309224003076000656E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PVK52JS2;
+				INFOPLIST_FILE = FMDBSQLCipherDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Otrshen.FMDBSQLCipherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDBSQLCipherDemo.app/FMDBSQLCipherDemo";
+			};
+			name = Debug;
+		};
+		C716309324003076000656E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PVK52JS2;
+				INFOPLIST_FILE = FMDBSQLCipherDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Otrshen.FMDBSQLCipherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDBSQLCipherDemo.app/FMDBSQLCipherDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C716306523FE380B000656E9 /* Build configuration list for PBXProject "FMDBSQLCipherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C716307C23FE380C000656E9 /* Debug */,
+				C716307D23FE380C000656E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C716307E23FE380C000656E9 /* Build configuration list for PBXNativeTarget "FMDBSQLCipherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C716307F23FE380C000656E9 /* Debug */,
+				C716308023FE380C000656E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C716309124003076000656E9 /* Build configuration list for PBXNativeTarget "FMDBSQLCipherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C716309224003076000656E9 /* Debug */,
+				C716309324003076000656E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C716306223FE380B000656E9 /* Project object */;
+}

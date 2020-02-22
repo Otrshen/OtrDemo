@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FMDBSQLCipherDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0Q-DX-dv0">
+                                <rect key="frame" x="119" y="112" width="176" height="30"/>
+                                <state key="normal" title="创建测试表"/>
+                                <connections>
+                                    <action selector="createTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nXq-dw-cwK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOx-Ai-cIX">
+                                <rect key="frame" x="120" y="169" width="176" height="30"/>
+                                <state key="normal" title="插入测试数据"/>
+                                <connections>
+                                    <action selector="insertData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBn-J3-7aS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W47-sO-q7P">
+                                <rect key="frame" x="120" y="220" width="176" height="30"/>
+                                <state key="normal" title="查询数据"/>
+                                <connections>
+                                    <action selector="queryData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tdg-P2-6uJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUq-le-v5M">
+                                <rect key="frame" x="120" y="272" width="176" height="30"/>
+                                <state key="normal" title="解密数据库"/>
+                                <connections>
+                                    <action selector="decryptDB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1bx-md-gUc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZj-NA-Dzw">
+                                <rect key="frame" x="120" y="330" width="176" height="30"/>
+                                <state key="normal" title="加密数据库"/>
+                                <connections>
+                                    <action selector="encryptDB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fg6-XZ-I7T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="f0Q-DX-dv0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6VX-GV-3Kb"/>
+                            <constraint firstItem="vZj-NA-Dzw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="BXc-o5-kFG"/>
+                            <constraint firstItem="oOx-Ai-cIX" firstAttribute="top" secondItem="f0Q-DX-dv0" secondAttribute="bottom" constant="27" id="DPu-rj-bCe"/>
+                            <constraint firstItem="f0Q-DX-dv0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="68" id="ENb-0g-HUP"/>
+                            <constraint firstItem="vZj-NA-Dzw" firstAttribute="top" secondItem="xUq-le-v5M" secondAttribute="bottom" constant="28" id="Oah-z3-6Yd"/>
+                            <constraint firstItem="f0Q-DX-dv0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="RiL-Zk-xnF"/>
+                            <constraint firstItem="W47-sO-q7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="Rkj-6I-GoG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xUq-le-v5M" secondAttribute="trailing" constant="118" id="Sn0-yA-Jol"/>
+                            <constraint firstItem="xUq-le-v5M" firstAttribute="top" secondItem="W47-sO-q7P" secondAttribute="bottom" constant="22" id="ZDW-nz-O25"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vZj-NA-Dzw" secondAttribute="trailing" constant="118" id="bhN-fF-b6r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f0Q-DX-dv0" secondAttribute="trailing" constant="119" id="eAA-M2-URW"/>
+                            <constraint firstItem="W47-sO-q7P" firstAttribute="top" secondItem="oOx-Ai-cIX" secondAttribute="bottom" constant="21" id="eDg-Sg-6vu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oOx-Ai-cIX" secondAttribute="trailing" constant="118" id="gfU-w9-TEV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W47-sO-q7P" secondAttribute="trailing" constant="118" id="kec-gM-pRi"/>
+                            <constraint firstItem="xUq-le-v5M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="pdc-Ho-e3j"/>
+                            <constraint firstItem="oOx-Ai-cIX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="qbI-cr-GPZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.6956521739130448" y="71.651785714285708"/>
+        </scene>
+    </scenes>
+</document>
