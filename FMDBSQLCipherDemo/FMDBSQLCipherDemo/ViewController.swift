@@ -98,6 +98,7 @@ class ViewController: UIViewController {
     @IBAction func decryptDB(_ sender: Any) {
         do {
             try FMDBSQLCipherHelper.decrypt(key: kDBKey, path: getOriginalDBPath(), targetPath: getDecryptDBPath())
+//            try FMDBSQLCipherHelper.decrypt(key: kDBKey, path: getOriginalDBPath())
             print("解密成功: \(getDecryptDBPath())")
         } catch {
             print("解密失败: catch_error:\(error)")
@@ -107,6 +108,7 @@ class ViewController: UIViewController {
     @IBAction func encryptDB(_ sender: Any) {
         do {
             try FMDBSQLCipherHelper.encrypt(key: kDBKey, path: getDecryptDBPath(), targetPath: getEncryptDBPath())
+//            try FMDBSQLCipherHelper.encrypt(key: kDBKey, path: getOriginalDBPath())
             print("加密成功: \(getDecryptDBPath())")
         } catch {
             print("加密失败: catch_error:\(error)")
